@@ -1,0 +1,16 @@
+var foo = "Duniaku" || "Hanya untukmu";
+console.log(foo);
+var foo = "Duniaku" && "Hanya untukmu";
+console.log(foo);
+var foo = true || "Hanya untukmu";
+console.log(foo);
+var foo = false || "Hanya untukmu";
+console.log(foo);
+var foo = "Duniaku" && false;
+console.log(foo);
+var foo = false && "Hanya untukmu";
+console.log(foo);
+var foo = false || false && true || "Hallo Sayang";
+console.log(foo);
+var foo = true || false && true || "Hallo Sayang";
+console.log(foo);
